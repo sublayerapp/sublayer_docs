@@ -2,7 +2,10 @@
 
 ## Welcome to MyAPI
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API. \
+
+
+{% embed url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-agents" %}
 
 ## Want to jump right in?
 
