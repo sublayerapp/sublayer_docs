@@ -1,24 +1,15 @@
-# Welcome!
+# A model-agnostic AI Agent framework for Ruby
 
-## Welcome to MyAPI
+Combine Generators, Actions, Tasks, and Agents to build AI-powered applications!
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API. \
+- [Get Started](docs/quick_start.md)
+- [View on Github](https://github.com/sublayerapp/sublayer)
 
+## Quick Links
 
-{% embed url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-agents" %}
+Sublayer is self-assembling, model-agnostic, AI Agent framework in Ruby that allows you to effortlessly create generative AI-powered automations.
 
-## Want to jump right in?
-
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
-
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
-{% endcontent-ref %}
-
-## Want to deep dive?
-
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
-
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
-{% endcontent-ref %}
+- [Quick Start](docs/quick_start.md): Get started with Sublayer right away.
+- [Examples](docs/guides/overview.md): Browse example code showing how you can use the Sublayer gem.
+- [Framework Guide](docs/concepts/overview): Learn about Sublayer concepts and conventions.
+- [Advanced Config](docs/advanced_config.md): Step-by-step guides to setting up your system and installing the library.
