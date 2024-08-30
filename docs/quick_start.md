@@ -1,5 +1,3 @@
-# Quick Start
-
 Sublayer is made up of four main concepts: Generators, Actions, Tasks, and Agents. These concepts combine to create powerful AI-powered applications in a simple and easy-to-use interface.
 
 You can think of a Sublayer Generator as an object that takes some string inputs and runs them through an LLM to generate some new string output.
