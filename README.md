@@ -1,5 +1,7 @@
 # A model-agnostic AI Agent framework for Ruby
 
+![Dummy Temp Sublayer Hero Image](https://picsum.photos/200/300)
+
 Combine Generators, Actions, Tasks, and Agents to build AI-powered applications!
 
 - [Get Started](docs/quick_start.md)

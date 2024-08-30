@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](./)
+* [Introduction](/README.md)
 * [Quick Start](docs/quick_start.md)
 * [Advanced Config](docs/advanced_config.md)
 
