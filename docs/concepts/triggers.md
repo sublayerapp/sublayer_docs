@@ -2,7 +2,7 @@ A trigger is an activation mechanism in an agent that determines when an agent p
 
 ## Try making your own trigger:
 
-\{% iframe path="interactive-code-generator/sublayer-triggers" /%\}
+{% iframe path="interactive-code-generator/sublayer-triggers" %}
 
 ## Examples:
 

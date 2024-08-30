@@ -2,7 +2,7 @@ Generators are responsible for generating specific outputs based on input data. 
 
 ## Try making your own generator:
 
-\{% iframe path="interactive-code-generator/sublayer-generators" /%\}
+{% iframe path="interactive-code-generator/sublayer-generators" %}
 
 ## [Examples](https://github.com/sublayerapp/sublayer/tree/main/examples):
 
