@@ -1,7 +1,7 @@
 ## Run Llama3.1 locally with Ollama
 
 1. [Install Ollama](#install-ollama)
-2. [Download and run the model](#download-and-run-llama3.1-download-llama3)
+2. [Download and run the model](#download-and-run-llama3.1)
 3. [Adding a custom Provider](#adding-a-ollama-llama3.1-provider)
 4. [Basic Demo](#full-demo)
 5. [Building a custom Provider](#building-a-custom-provider)

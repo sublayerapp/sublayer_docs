@@ -12,8 +12,8 @@
 * [Actions](docs/concepts/actions.md)
 
 ## Custom Components
-* [Overview](docs/custom_comoponents/overview.md)
-* [Output Adapters](docs/custom_comoponents/output-adapters.md)
+* [Overview](docs/custom_components/overview.md)
+* [Output Adapters](docs/custom_components/output-adapters.md)
 
 ## Guides
 
