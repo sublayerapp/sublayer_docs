@@ -3,12 +3,12 @@
 1. [Install Llamfile](#install-llamafile)
 2. [Download the model](#download-the-model)
 3. [Run the model with Llamafile](#run-the-model)
-4. [Use with Sublayer](#use-with-sublayer)
+4. [Use with Sublayer](#use-with-sublayer-skip-to-basic-demo-if-you-dont-have-a-project)
 5. [Basic Demo](#basic-demo)
 
 {% embed url="https://www.youtube.com/embed/L0kTksoFaVM?si=Ltk41LtlNflobV8R" %}
 
-## Install [Llamafile](https://github.com/Mozilla-Ocho/llamafile) {% #install-llamafile %}
+## Install [Llamafile](https://github.com/Mozilla-Ocho/llamafile)
 1. ```bash
    git clone git@github.com:Mozilla-Ocho/llamafile.git
    ```
@@ -21,13 +21,13 @@
    sudo gmake install PREFIX=/usr/local
    ```
 
-## Download the [model](https://huggingface.co/models) {% #download-the-model %}
+## Download the [model](https://huggingface.co/models)
 * Click below to download the recommended Model:
     * [Meta Llama3](https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_M.gguf?download=true) [recommended]
     * [Hermes 2 Pro Mistral 7B](https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF/resolve/main/Hermes-2-Pro-Mistral-7B.gguf?download=true)
 * To find your own model: go to [Hugging Face](https://huggingface.co/models)
 
-## Run the model {% #run-the-model %}
+## Run the model
 ```bash
 llamafile -ngl 9999 -m path/to/model.gguf --host 0.0.0.0 -c 2048
 ```
@@ -39,7 +39,7 @@ llamafile -ngl 9999 -m path/to/model.gguf --host 0.0.0.0 -c 2048
 
 * visit [localhost:8080](http://localhost:8080)
 
-## Use with Sublayer (skip to [Basic Demo](#basic-demo) if you don't have a project) {% #use-with-sublayer %}
+## Use with Sublayer (skip to [Basic Demo](#basic-demo) if you don't have a project)
 1. Add to Gemfile:
     ```ruby
     gem 'sublayer', '~>0.0.7'
@@ -61,7 +61,7 @@ llamafile -ngl 9999 -m path/to/model.gguf --host 0.0.0.0 -c 2048
     MyGenerator.new(attributes).generate
     ```
 
-## Basic Demo {% #basic-demo %}
+## Basic Demo
 Let's make a ruby project to find a past historical event on today's date
 
 ```bash

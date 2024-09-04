@@ -1,4 +1,4 @@
-## Framework Guide {% #framework-guide %}
+## Framework Guide
 
 Using Generators, Actions, and Agents
 

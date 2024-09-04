@@ -1,22 +1,22 @@
 ## Run Llama3.1 locally with Ollama
 
 1. [Install Ollama](#install-ollama)
-2. [Download and run the model](#download-llama3)
-3. [Adding a custom Provider](#add-custom-provider)
-4. [Basic Demo](#basic-demo)
-5. [Building a custom Provider](#build-custom-provider)
+2. [Download and run the model](#download-and-run-llama3.1-download-llama3)
+3. [Adding a custom Provider](#adding-a-ollama-llama3.1-provider)
+4. [Basic Demo](#full-demo)
+5. [Building a custom Provider](#building-a-custom-provider)
 
 {% embed url="https://www.youtube.com/embed/TPSWeFrN67w" %}
 
-## Install [Ollama](https://ollama.com/) {% #install-ollama %}
+## Install [Ollama](https://ollama.com/)
 * Visit [https://ollama.com/](https://ollama.com/) and download ollama
 
-## Download and run [llama3.1](https://ollama.com/library/llama3.1) {% #download-llama3 %}
+## Download and run [llama3.1](https://ollama.com/library/llama3.1)
 ```bash
 ollama run llama3.1
 ```
 
-## Adding a Ollama Llama3.1 Provider {% #add-custom-provider %}
+## Adding a Ollama Llama3.1 Provider
 To add a provider to an existing project:
 
 1. Add to Gemfile:
@@ -83,7 +83,7 @@ To add a provider to an existing project:
     MyGenerator.new(attributes).generate
     ```
 
-## Full Demo {% #basic-demo %}
+## Full Demo
 Let's make a ruby project to generate Dr. Seuss styled short poems
 
 ```bash
@@ -174,7 +174,7 @@ bundle install
   ruby dr_seuss_poem_maker.rb
   ```
 
-## Building a Custom Provider {% #build-custom-provider %}
+## Building a Custom Provider
 {% embed url="https://www.youtube.com/embed/4Trn-I6Ew1I" %}
 
 * Sublayer Gem comes with httparty
