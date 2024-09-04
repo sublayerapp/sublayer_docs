@@ -4,6 +4,17 @@
 * [Quick Start](docs/quick_start.md)
 * [Advanced Config](docs/advanced_config.md)
 
+## Core Concepts
+* [Overview](docs/concepts/overview.md)
+* [Agents](docs/concepts/agents.md)
+* [Triggers](docs/concepts/triggers.md)
+* [Generators](docs/concepts/generators.md)
+* [Actions](docs/concepts/actions.md)
+
+## Custom Components
+* [Overview](docs/custom_comoponents/overview.md)
+* [Output Adapters](docs/custom_comoponents/output-adapters.md)
+
 ## Guides
 
 * [Overview](docs/guides/overview.md)
@@ -13,13 +24,6 @@
 * [Running Local Llama3.1 with ollama](docs/guides/running-local-llama31-with-ollama.md)
 * [Running Local Models with Llamafile (< 0.1)](docs/guides/running-local-models-with-llamafile.md)
 * [Build a Command line Command Generator](docs/guides/command-line-command-generator.md)
-
-## Core Concepts
-* [Overview](docs/concepts/overview.md)
-* [Agents](docs/concepts/agents.md)
-* [Triggers](docs/concepts/triggers.md)
-* [Generators](docs/concepts/generators.md)
-* [Actions](docs/concepts/actions.md)
 
 ## Community
 * [Join Our Discord](https://discord.gg/cy7Kru3WRW)
