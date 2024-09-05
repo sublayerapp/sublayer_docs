@@ -6,6 +6,10 @@ Generators are responsible for generating specific outputs based on input data. 
 
 {% @blueprints-iframe/blueprints-iframe packageName="sublayer-generators" queryParams="example=true" %}
 
+{% @blueprints-iframe/blueprints-iframe package="sublayer-generators" queryParams="example=true" %}
+
+{% @blueprints-iframe/blueprints-iframe %}
+
 ### [Examples](https://github.com/sublayerapp/sublayer/tree/main/examples):
 
 * [CodeFromDescriptionGenerator](https://github.com/sublayerapp/sublayer/blob/main/examples/code\_from\_description\_generator.rb): Generates code based on a description and the technologies used.
