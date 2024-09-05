@@ -4,14 +4,7 @@ Generators are responsible for generating specific outputs based on input data. 
 
 ### Try making your own generator:
 
-```blueprints-iframe
-{
-  "packageName": "sublayer-generators",
-  "queryParams": "example=true"
-}
-```
-
-{% @blueprints-iframe/blueprints-iframe %}
+{% @blueprints-iframe/blueprints-iframe packageName="sublayer-generators" queryParams="example=true" %}
 
 ### [Examples](https://github.com/sublayerapp/sublayer/tree/main/examples):
 
