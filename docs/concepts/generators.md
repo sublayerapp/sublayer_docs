@@ -4,6 +4,13 @@ Generators are responsible for generating specific outputs based on input data. 
 
 {% iframe path="interactive-code-generator/sublayer-generators" %}
 
+```blueprints-iframe
+{
+  "packageName": "sublayer-generators",
+  "queryParams": "example=true"
+}
+```
+
 ## [Examples](https://github.com/sublayerapp/sublayer/tree/main/examples):
 
 - [CodeFromDescriptionGenerator](https://github.com/sublayerapp/sublayer/blob/main/examples/code_from_description_generator.rb): Generates code based on a description and the technologies used.
