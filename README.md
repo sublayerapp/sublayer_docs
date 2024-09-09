@@ -2,8 +2,6 @@
 
 Combine Generators, Actions, Tasks, and Agents to build AI-powered applications!
 
-![Dummy Temp Sublayer Hero Image](https://picsum.photos/200/300)
-
 - [Get Started](/docs/quick_start.md)
 - [View on Github](https://github.com/sublayerapp/sublayer)
 
