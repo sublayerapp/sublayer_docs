@@ -4,13 +4,7 @@ Generators are responsible for generating specific outputs based on input data. 
 
 ### Try making your own generator:
 
-{% @blueprints-iframe/blueprints-iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators?example=true" %}
-
-{% @blueprints-iframe/blueprints-iframe packageName="sublayer-generators" queryParams="example=true" %}
-
-{% @blueprints-iframe/blueprints-iframe package="sublayer-generators" queryParams="example=true" %}
-
-{% @blueprints-iframe/blueprints-iframe %}
+{% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators?example=true" %}
 
 ### [Examples](https://github.com/sublayerapp/sublayer/tree/main/examples):
 
