@@ -19,7 +19,7 @@ These methods work in concert to create a flexible, event-driven system for auto
 
 ## Try generating your own agent:
 
-{% iframe path="interactive-code-generator/sublayer-agents" %}
+{% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-agents" %}
 
 ## Examples:
 

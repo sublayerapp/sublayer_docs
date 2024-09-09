@@ -54,7 +54,7 @@ llamafile -ngl 9999 -m path/to/model.gguf --host 0.0.0.0 -c 2048
     Sublayer.configuration.ai_model = "LLaMA_CPP"
     ```
 4. Build a sublayer generator:
-    {% iframe path="interactive-code-generator/sublayer-generators" %}
+    {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators" %}
 
 5. Use in your code:
     ```ruby
@@ -85,7 +85,7 @@ bundle install
 
 * Build a sublayer generator with the following description:
     * "generator that uses Time.now and finds a fun historical event from the past that occurred on the same month/day as a value"
-    {% iframe path="interactive-code-generator/sublayer-generators" example="false" %}
+    {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators?example=false" %}
 
 * Paste the result from above into `historical_event_generator.rb` (rename if needed)
 

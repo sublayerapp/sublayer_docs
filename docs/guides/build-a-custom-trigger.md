@@ -26,7 +26,7 @@ bundle install
 
 * Build a sublayer generator with the following description:
     * "A Time Interval Trigger that takes an integer for seconds to wait"
-    {% iframe path="interactive-code-generator/sublayer-triggers" example="false" %}
+    {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-triggers?example=false" %}
 
 * Paste the result from above into `time_interval.rb` (rename and adjust arguments if needed)
 * Write the following code in `hello_world_agent.rb`:

@@ -76,8 +76,7 @@ To add a provider to an existing project:
     Sublayer.configuration.ai_provider = Sublayer::Providers::OllamaLlama31
     ```
 5. Build a sublayer generator:
-    {% iframe path="interactive-code-generator/sublayer-generators" %}
-
+    {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators" %}
 6. Use in your code:
     ```ruby
     MyGenerator.new(attributes).generate
@@ -109,7 +108,7 @@ bundle install
 
 * Build a sublayer generator with the following description:
     * "generator that writes poems in the style of Dr. Seuss"
-    {% iframe path="interactive-code-generator/sublayer-generators" example="false" %}
+    {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators?example=false" %}
 
 * Paste the result from above into `dr_seuss_poem_generator.rb` (rename if desired)
 

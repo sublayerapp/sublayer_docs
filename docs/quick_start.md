@@ -79,7 +79,7 @@ To learn more about everything you can do with a generator, check out the [Gener
 
 Try generating your own generator with our interactive code generator below:
 
-{% iframe src="interactive-code-generator/sublayer-generators" %}
+{% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators" %}
 
 ## Step 4 - Use Your Generator
 

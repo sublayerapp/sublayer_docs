@@ -2,7 +2,7 @@ Actions are responsible for performing specific operations to get inputs for a G
 
 ## Try making your own Action:
 
-{% iframe path="interactive-code-generator/sublayer-actions" %}
+{% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-actions" %}
 
 ## Examples:
 
