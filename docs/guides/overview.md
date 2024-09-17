@@ -17,6 +17,14 @@ A command line program that uses an LLM to generate code to pass your failing te
 * Learn how to build different types of Actions
 * Learn how a Generator can take multiple inputs to generate the output you want
 
+### [Sublayer Generate Agent Command](/docs/guides/sublayer-generate-agent-command.md)
+
+A guide on using the new 'sublayer generate agent' command to create Sublayer Agents based on user-provided descriptions and conditions.
+
+* Learn how to utilize different options and flags for the 'agent' command
+* Explore scenarios where the generated agents can be applied
+* Learn how to customize the generated agents to fit specific requirements
+
 ### [Run LLM Models Locally with Llamafile](/docs/guides/running-local-models-with-llamafile.md)
 
 A guide on the recommended way to set up and run LLMs locally to interface with Sublayer.
