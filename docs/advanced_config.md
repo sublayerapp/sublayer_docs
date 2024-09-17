@@ -1,6 +1,6 @@
 ## Set Up Your Preferred LLM
 
-After installing Sublayer, you can choose between any of the available LLM providers we support.
+After installing Sublayer, you can choose between any of the available LLM providers we support to power your agents and generators.
 
 ### OpenAI (Default)
 
@@ -58,3 +58,7 @@ Usage:
 Sublayer.configuration.ai_provider = Sublayer::Providers::Local
 Sublayer.configuration.ai_model = "LLaMA_CPP"
 ```
+
+### Using Agents with LLM Providers
+
+With the addition of the `sublayer generate agent` command, you can now create agents that leverage these LLM providers to perform tasks autonomously. Depending on the provider you select, make sure to have your API keys set correctly as described above to ensure seamless operation of your agents.

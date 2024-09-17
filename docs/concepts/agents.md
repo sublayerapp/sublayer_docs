@@ -4,7 +4,18 @@ Think of Sublayer Agents as your personal assistants, always ready to help with 
 
 Triggers could be things like file changes, incoming data, time-based events, or even manual calls while the goal might be completing a data analysis or updating a system. The agent will keep checking its status and taking steps until it reaches its goal. It's like having a tireless helper that knows exactly when to jump in and what to do, making a variety of processes more efficient and responsive to change. Whether you're automating workflows, monitoring systems, or processing data, Sublayer Agents provide a flexible, event-driven approach to tackling complex and repetitive tasks.
 
-## Writing an Agent
+## New Feature: Sublayer Agent Generation
+
+With the latest update, you can now generate Sublayer Agents using the Sublayer CLI. The new command allows you to create agents tailored to your specific needs, offering customization for different parts of the agent's logic.
+
+### Key Features:
+
+- **Description**: Provides a tailored purpose for the agent you are generating.
+- **Provider Selection**: Choose between supported AI providers like OpenAI, Claude, or Gemini.
+- **Model Configuration**: Set the specific AI model name to use for creating the agent.
+- **Interaction Setup**: Questions guide you to specify how the agent should operate, including trigger conditions, goals, checking status, and the steps it should take.
+
+### Writing an Agent
 
 Sublayer Agents are autonomous units of execution designed to perform specific tasks or monitor systems. They are built on top of the `Sublayer::Agents::Base` class and utilize a Domain Specific Language (DSL) for defining their behavior.
 
@@ -17,7 +28,14 @@ The DSL consists of four primary methods:
 
 These methods work in concert to create a flexible, event-driven system for automating complex workflows and responding to changes in various environments.
 
-## Try generating your own agent:
+### CLI Command Example
+
+To generate an agent, use the following command:
+```bash
+sublayer generate agent --description "Your agent description here" --provider "OpenAI" --model "gpt-4o"
+```
+
+### Try generating your own agent:
 
 {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-agents" %}
 
@@ -25,3 +43,5 @@ These methods work in concert to create a flexible, event-driven system for auto
 
 - [RSpecAgent](https://github.com/sublayerapp/sublayer/blob/main/spec/agents/examples/rspec_agent.rb)
   - A Sublayer agent that is triggered any time a test file or an implementation file changes with a goal of making the tests pass. When one of the files changes, the status is checked by running the tests. If the tests are failing, the agent sends the tests and the implementation to an LLM (using a [Sublayer::Generator](/concepts/generators)) to generate a new implementation that should pass the tests.
+
+The new Sublayer Agent generation feature propels you to swiftly create customized agents to automate redundant tasks or interact with your project's data in versatile ways, leveraging the power of AI models.

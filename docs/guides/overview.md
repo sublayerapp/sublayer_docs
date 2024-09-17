@@ -32,3 +32,28 @@ A Ruby command line gem that lets you describe something you'd like to do on the
 * Learn how to use Generators
 * Learn how to take advantage of Sublayer being model-agnostic and allow users to select which model to use
 * Try the Gem out yourself on [Rubygems](https://rubygems.org/gems/clag)
+
+### [Run Llama3.1 Locally with Ollama](/docs/guides/running-local-llama31-with-ollama.md)
+
+Learn how to run Llama 3.1 with Ollama locally.
+
+* Install Ollama and learn how to use it to run models locally
+* Set up a custom provider in Sublayer to utilize Llama 3.1
+* Explore a full demo project using Llama 3.1
+
+### [Build a Custom Trigger](/docs/guides/build-a-custom-trigger.md)
+
+Learn how to build a custom trigger that defines when an agent performs its tasks.
+
+* Create a time interval trigger for an agent
+* Understand the flexibility of triggers in agent operation
+
+### [Build a Custom Sublayer Agent](/docs/guides/build-custom-agent.md)
+
+Learn to create custom agents that leverage the new Sublayer agent framework.
+
+* Understand the four main components: triggers, goal condition, check status, step
+* Explore practical examples using different AI providers
+* Integrate custom agents into existing applications
+
+This newly added guide will help users understand how to leverage the recently introduced sublayer agent feature and customize it to suit specific needs within their projects.

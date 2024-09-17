@@ -4,7 +4,7 @@
 
 * [Welcome](README.md)
 * [Quick Start](docs/quick\_start.md)
-* [Advanced Config](docs/advanced\_config.md)
+* [Advanced Config](docs/advanced_config.md)
 
 ## Core Concepts
 
@@ -23,7 +23,7 @@
 
 * [Overview](docs/guides/overview.md)
 * [LLM Voice Chat w/Rails](docs/guides/voice-chat.md)
-* [Build a TDD Bot](docs/guides/tdd\_bot.md)
+* [Build a TDD Bot](docs/guides/tdd_bot.md)
 * [Build a Custom Trigger](docs/guides/build-a-custom-trigger.md)
 * [Running Local Llama3.1 with ollama](docs/guides/running-local-llama31-with-ollama.md)
 * [Running Local Models with Llamafile (< 0.1)](docs/guides/running-local-models-with-llamafile.md)
@@ -32,3 +32,11 @@
 ## Community
 
 * [Join Our Discord](https://discord.gg/cy7Kru3WRW)
+
+## Agent Creation
+
+* [Generating Sublayer Agents](docs/guides/generating_sublayer_agents.md)
+
+## Usage Examples
+
+* [Creating Agents with Different AI Providers](docs/examples/creating_agents_with_different_ai_providers.md)
