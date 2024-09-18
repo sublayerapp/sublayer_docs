@@ -173,12 +173,14 @@ bundle install
   ruby dr_seuss_poem_maker.rb
   ```
 
+* Add a tutorial explaining how to utilize the new functionalities in the updated Ruby.yml file.
+
 ## Building a Custom Provider
 {% embed url="https://www.youtube.com/embed/4Trn-I6Ew1I" %}
 
-* Sublayer Gem comes with httparty
+* Sublayer Gem comes with httparty.
 * Add a class method `.call` with two named parameters: `prompt:` and `output_adapter:`
-* Find the url endpoint you need for llm chat completions
-* Find the request format for function calling
+* Find the url endpoint you need for llm chat completions.
+* Find the request format for function calling.
 * If no function calling exists [click here to find an example provider of custom response formatting](https://github.com/sublayerapp/sublayer/blob/0.0/lib/sublayer/providers/local.rb)
-* Take the response and parse for the desired value
+* Take the response and parse for the desired value.

@@ -107,3 +107,25 @@ bundle install
   ```bash
   ruby historical_event_finder.rb
   ```
+
+## Setting up Different LLM Providers
+This section explains how to set up and use different Local Language Model (LLM) providers in the Sublayer framework.
+
+### Supported Providers
+
+1. **Meta Llama3**
+   * Model Version: `8B-Instruct`
+   * Usage Instruction: Download from the link provided above.
+
+2. **Hermes 2 Pro Mistral 7B**
+   * Model Version: `7B`
+   * Usage Instruction: Download and set up as per the guidelines.
+
+3. **Custom Model Setup**
+   * You can choose to integrate custom models hosted locally by setting up the `llamafile`.
+
+### Configuration Tips
+- While configuring your local setup, ensure you're pointing to the correct model path and are aware of the hardware capabilities of your system.
+- Use `--gpu APPLE` configuration for Apple M1 users to leverage GPU capabilities.
+
+Refer to the [Advanced Config](docs/advanced_config.md) section for more intricate configuration options. This includes setting environment variable configurations for GOOGLE API keys, GROQ API keys, and more.

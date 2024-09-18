@@ -2,7 +2,7 @@ Sublayer is made up of four main concepts: Generators, Actions, Tasks, and Agent
 
 You can think of a Sublayer Generator as an object that takes some string inputs and runs them through an LLM to generate some new string output.
 
-In this example, we'll create a simple generator that takes a description of code and the technologies to use and generates code using an LLM like GPT-4.
+In this example, we'll demonstrate how to set up your environment for running tests with Rake, and then create a simple generator that takes a description of code and the technologies to use and generates code using an LLM like GPT-4.
 
 ---
 
@@ -21,6 +21,28 @@ gem "sublayer"
 ```
 
 ## Step 2 - Environment Setup
+
+Set up your environment to run tests with Rake.
+
+1. Ensure you have Rake installed:
+   ```shell
+   $ gem install rake
+   ```
+2. Create a `Rakefile` in your project directory and define your test tasks. Here is a simple example for RSpec:
+   ```ruby
+   require "rake/testtask"
+
+   Rake::TestTask.new do |t|
+     t.libs.push 'test'
+     t.pattern = 'test/**/*_test.rb'
+   end
+
+   task default: :test
+   ```
+3. Run your tests:
+   ```shell
+   $ rake
+   ```
 
 Set your OpenAI API key as an environment variable:
 
@@ -59,12 +81,12 @@ module Sublayer
 
       def prompt
         <<-PROMPT
-          You are an expert programmer in \#{@technologies.join(", ")}.
-
-          You are tasked with writing code using the following technologies: \#{@technologies.join(", ")}.
-
-          The description of the task is \#{@description}
-
+          You are an expert programmer in \
+#{@technologies.join(", ")}.\n
+          You are tasked with writing code using the following technologies: \
+#{@technologies.join(", ")}.\n
+          The description of the task is \
+#{@description}\n
           Take a deep breath and think step by step before you start coding.
         PROMPT
       end

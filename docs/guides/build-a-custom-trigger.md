@@ -58,3 +58,13 @@ bundle install
   ```bash
   ruby hello_world_agent.rb
   ```
+
+## Additional Resources
+
+For more tutorials on creating custom triggers and extending your Sublayer agents, explore the following:
+
+- [Sublayer Documentation on Agents](../concepts/agents.md): Overview and advanced uses of agents.
+- [Creating Custom Actions](../concepts/actions.md): Learn how to create actions that can be used with your custom triggers.
+- [Code Examples](../guides/overview.md): Examples of how to extend and customize your Sublayer applications with code snippets.
+
+Ensuring your time interval triggers are effective and efficient can be further refined by exploring these resources. They will guide you through best practices and advanced configurations.
