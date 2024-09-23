@@ -1,12 +1,14 @@
-Sublayer is made up of four main concepts: Generators, Actions, Tasks, and Agents. These concepts combine to create powerful AI-powered applications in a simple and easy-to-use interface.
+# Quick Start
+
+Sublayer is made up of three main concepts: Generators, Actions, and Agents. These concepts combine to create powerful AI-powered applications in a simple and easy-to-use interface.
 
 You can think of a Sublayer Generator as an object that takes some string inputs and runs them through an LLM to generate some new string output.
 
 In this example, we'll create a simple generator that takes a description of code and the technologies to use and generates code using an LLM like GPT-4.
 
----
+***
 
-## Step 1 - Installation
+### Step 1 - Installation
 
 Install the Sublayer gem:
 
@@ -20,7 +22,7 @@ Or add it to your Gemfile:
 gem "sublayer"
 ```
 
-## Step 2 - Environment Setup
+### Step 2 - Environment Setup
 
 Set your OpenAI API key as an environment variable:
 
@@ -30,7 +32,7 @@ export OPENAI_API_KEY="your-api-key"
 
 Don't have a key? Visit [OpenAI](https://openai.com/product) to get one.
 
-## Step 3a - Create a Generator
+### Step 3a - Create a Generator
 
 Create a Sublayer Generator. Generators are responsible for taking input from your application and generating output using an LLM like GPT-4.
 
@@ -75,13 +77,13 @@ end
 
 To learn more about everything you can do with a generator, check out the [Generators](docs/concepts/generators.md) page.
 
-## Step 3b - Try Generating One!
+### Step 3b - Try Generating One!
 
 Try generating your own generator with our interactive code generator below:
 
 {% @iframe/iframe url="https://blueprints.sublayer.com/interactive-code-generator/sublayer-generators" %}
 
-## Step 4 - Use Your Generator
+### Step 4 - Use Your Generator
 
 Require the Sublayer gem and your generator and call `generate`!
 
@@ -98,7 +100,7 @@ generator = Sublayer::Generators::CodeFromDescriptionGenerator.new(description: 
 puts generator.generate
 ```
 
-## Next Steps
+### Next Steps
 
 Now that you've created your first generator, you can:
 

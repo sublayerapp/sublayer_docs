@@ -9,15 +9,15 @@
 ## Core Concepts
 
 * [Overview](docs/concepts/overview.md)
-* [Agents](docs/concepts/agents.md)
-* [Triggers](docs/concepts/triggers.md)
 * [Generators](docs/concepts/generators.md)
 * [Actions](docs/concepts/actions.md)
+* [Agents](docs/concepts/agents.md)
 
 ## Custom Components
 
 * [Overview](docs/custom\_components/overview.md)
 * [Output Adapters](docs/custom\_components/output-adapters.md)
+* [Triggers](custom-components/triggers.md)
 
 ## Guides
 

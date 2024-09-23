@@ -1,15 +1,17 @@
-## A model-agnostic AI Agent framework for Ruby
+# Welcome
 
-Combine Generators, Actions, Tasks, and Agents to build AI-powered applications!
+### A model-agnostic AI Agent framework for Ruby
 
-- [Get Started](/docs/quick_start.md)
-- [View on Github](https://github.com/sublayerapp/sublayer)
+Combine Generators, Actions, and Agents to build AI-powered applications!
 
-## Quick Links
+* [Get Started](docs/quick\_start.md)
+* [View on Github](https://github.com/sublayerapp/sublayer)
+
+### Quick Links
 
 Sublayer is self-assembling, model-agnostic, AI Agent framework in Ruby that allows you to effortlessly create generative AI-powered automations.
 
-- [Quick Start](/docs/quick_start.md): Get started with Sublayer right away.
-- [Examples](/docs/guides/overview.md): Browse example code showing how you can use the Sublayer gem.
-- [Framework Guide](/docs/concepts/overview.md): Learn about Sublayer concepts and conventions.
-- [Advanced Config](/docs/advanced_config.md): Step-by-step guides to setting up your system and installing the library.
+* [Quick Start](docs/quick\_start.md): Get started with Sublayer right away.
+* [Examples](docs/guides/overview.md): Browse example code showing how you can use the Sublayer gem.
+* [Framework Guide](docs/concepts/overview.md): Learn about Sublayer concepts and conventions.
+* [Advanced Config](docs/advanced\_config.md): Step-by-step guides to setting up your system and installing the library.
